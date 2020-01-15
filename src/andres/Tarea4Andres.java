@@ -22,4 +22,22 @@ public class Tarea4Andres {
         this.hola = 8;
         this.adios = 3;
     }
+
+    public int getHola() {
+        return hola;
+    }
+
+    public void setHola(int hola) {
+        this.hola = hola;
+    }
+
+    public int getAdios() {
+        return adios;
+    }
+
+    public void setAdios(int adios) {
+        this.adios = adios;
+    }
+    
+    
 }
