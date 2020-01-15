@@ -38,6 +38,11 @@ public class Tarea4Andres {
     public void setAdios(int adios) {
         this.adios = adios;
     }
+
+    @Override
+    public String toString() {
+        return "Tarea4Andres{" + "hola=" + hola + ", adios=" + adios + '}';
+    }
     
     
 }
