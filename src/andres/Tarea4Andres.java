@@ -12,5 +12,14 @@ package andres;
 public class Tarea4Andres {
     public int hola;
     public int adios;
+
+    public Tarea4Andres(int hola, int adios) {
+        this.hola = hola;
+        this.adios = adios;
+    }
     
+    public Tarea4Andres() {
+        this.hola = 8;
+        this.adios = 3;
+    }
 }
